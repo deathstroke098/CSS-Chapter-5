@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+    <style>
+        
+
+        li {
+            /* display: inline; */ 
+            /* background-color: rgb(253, 11, 11); */
+            list-style: square;
+
+
+        }
+
+        header {
+            background-color: rgb(15, 15, 14);
+            height: 40px;
+            padding: 12px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            border: 5px solid red;
+            padding: 29px;
+            z-index: 1;
+        }
+        .box{
+            height: 22px;
+            width: 200px;
+            background-color: chartreuse;
+            position: relative;
+            border: 1px solid black;
+            left: 500px;
+        }
+        .box2{
+            height: 22px;
+            width: 200px;
+            background-color: chartreuse;
+            position: static;
+            border: 1px solid black;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Services</li>
+                <li>Feedback</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit itaque, voluptas, reprehenderit dicta porro labore,
+    voluptatibus incidunt dolore voluptate possimus ut. Eaque sapiente doloremque quasi facere doloribus iure nam
+    possimus magni quia illo eius asperiores qui blanditiis, ea atque fuga ipsam omnis rem laboriosam earum reiciendis!
+    Id tempora a quas?
+    <div class="box">
+        I'm a box Lorem ipsum dolor 
+        <div class="box2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti natus incidunt. Voluptas earum, ratione atque deleniti nihil deserunt nobis!
+        </div>
+    </div>
+</div>
+<ul>
+    <li>Harami</li>    
+    <li>Suar</li>    
+    <li>Kutta</li>    
+
+</ul>
+</body>
+
+</html>
